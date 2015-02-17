@@ -1,4 +1,8 @@
 
+<h1>NOTES APP</h1>
+
+<p>{{message}}</p>
+
 {{#each note in model}}
   <li>{{note.text}}</li>
   <p><button {{action "deleteNote" note}}>Delete Note</button></p>
